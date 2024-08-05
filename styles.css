@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(248, 248, 248);
+    padding: 12px;
+    font-weight: bolder;
+
+}
+ul{
+display: flex;
+}
+.logo img{
+    width: 30px;
+    filter: invert();
+   
+}
+.logo span{
+font-size: 12px;
+display: block;
+}
+ul li{
+list-style: none;
+padding: 0 13px;
+font-size: 13px;
+}
+ul li a{
+color: aliceblue;
+text-decoration:none;
+}
+ul li a:hover{
+color: grey;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#home, #about, #contact {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.logo span{
+    font-size: 12px;
+    display: block;
+}
+
+.logo img{
+    width: 30px;
+    filter: invert();
+   
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin: 10px 0 5px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+
+button{
+    display: flex;
+    padding: 4px;
+    background-color: rgb(8, 8, 8);
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+footer {
+    background-color: #060606;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+@media only screen and( max-width:600px){
+    
+    
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding: 6px 0;
+        font-size: 12px;
+    }
+   
+}
